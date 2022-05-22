@@ -1,0 +1,31 @@
+.game-page {
+    background-color: rgba(24, 23, 23, 0.7);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.game-page__content {
+    display: flex;
+}
+
+.game-page__left {
+    width: 70%;
+}
+
+.game-page__right {
+    width: 30%;
+}
+
+.game-page__right p{
+    text-align: left;
+}
+
+.game-page__right .game-cover:hover {
+    transform: scale(1);
+}
+
+.game-page__buy-game {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}

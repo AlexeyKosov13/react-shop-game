@@ -1,0 +1,19 @@
+.game-cover {
+    height: 170px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: all 0.6s ;
+}
+
+.game-cover:hover {
+    transform: scale(1.1);
+}
+
+.game-wrapper {
+    overflow: hidden;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}

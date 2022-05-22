@@ -1,0 +1,26 @@
+.home-page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.order-page {
+    background-color: rgba(24, 23, 23, 0.7);
+    padding: 20px;
+}
+
+.order-page .order-item {
+    align-items: center;
+}
+
+.order-page .cart-item__delete-item {
+    margin-left: 20px;
+}
+
+.order-page .order-item__cover {
+    width: 180px;
+    height: 120px;
+}
+
+.order-page__left .game-cover:hover {
+    transform: scale(1);
+}
